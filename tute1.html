@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="This is tech based website">
+    <meta name="keywords" content="tech,programming,firstweb,">
+    <meta name="robot" content="index, follow">
+    <title>Shoantech</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(tamplate.jpg);
+        }
+
+        /* for the logo  */
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: relative;
+            left: 34px;
+            top: 20px;
+
+
+        }
+
+        /* for the logo  */
+
+        /* for the navigation bar  */
+        .mid {
+            border: 2px solid rgb(243, 16, 16);
+            display: block;
+            width: 35%;
+            position: relative;
+            margin: auto;
+            top: -30px;
+        }
+
+        /* for the navigation bar  */
+        /* for the other eliments  */
+        .right {
+            /* border: 2px solid rgb(243, 9, 9); */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+
+
+        }
+
+        /* for the other elemnts */
+        /* for the navigation bar */
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 5px;
+        }
+
+        /* for the navigation bar */
+        /* pseudocode */
+        .navbar li a:hover {
+            text-decoration: underline;
+            border: 2px solid black;
+            color: black;
+            background-color: rgb(236, 241, 245);
+        }
+
+        /* logo settings */
+        .left img {
+            width: 30px;
+        }
+
+        /* logo text  */
+        .text {
+            display: block;
+            position: relative;
+            left: -17px;
+            top: -7px;
+            color: rgb(241, 11, 11);
+            border: 2px solid red;
+        }
+
+        /* header border */
+        .header {
+            border: 2px solid black;
+            background-color: black;
+        }
+
+        .right a img {
+            width: 50px;
+            display: block;
+            position: relative;
+            right: 55px;
+        }
+
+        .op {
+            width: 45px;
+            display: block;
+            position: relative;
+            right: -55px;
+            top: -48px;
+        }
+
+        .samrana {
+            border: 2px solid greenyellow;
+            margin: 106px 60px;
+            width: 35%;
+            padding: 72px 72px;
+            border-radius: 30px;
+            background-color: grey;
+            cursor: pointer;
+        }
+
+        .love {
+            text-align: center;
+            display: block;
+            width: 245px;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 3px auto;
+
+        }
+
+        .love2 {
+            text-align: center;
+            display: block;
+        }
+
+        .mylove {
+            display: block;
+            margin: auto;
+            background-color: black;
+            cursor: pointer;
+            color: aliceblue;
+            width: 270px;
+            border: 2px solid black;
+            border-radius: 24px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- this is for logo -->
+            <img src="Coffee Logo.png" alt="">
+            <div class="text"><strong>SHOAN TECH</strong></div>
+        </div>
+        <div class="mid">
+            <!-- this for navigation -->
+            <ul class="navbar">
+                <li><a href="http://127.0.0.1:5500/tute2.html" >Home</a></li>
+                <li><a href="http://127.0.0.1:5500/tute3.html">About</a></li>
+                <li><a href="http://127.0.0.1:5500/tute2.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5500/tute4.html">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- this is for social elements -->
+            <span><a href="http://127.0.0.1:5500/tute4.html"><img src="mail.png" alt="not found"></a></span>
+            <span><a href="http://127.0.0.1:5500/tute4.html" class="op"><img src="facebook.png" alt=""></a></span>
+        </div>
+    </header>
+    <div class="samrana">
+        <!-- landing page -->
+        <h1 class="love2">Take best services </h1>
+        <form action="noaction.php">
+            <div class="love">
+                <input type="text" name="" placeholder="Service name">
+            </div>
+            <div class="love">
+                <input type="number" name="" placeholder="Price">
+            </div>
+            <div class="love">
+                <input type="number" name="" placeholder="service code">
+            </div>
+            <div class="love">
+                are you agree<input type="checkbox" name="" placeholder="are you agree">
+            </div>
+
+            <button class="mylove">order now</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
